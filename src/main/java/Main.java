@@ -12,14 +12,7 @@ public class Main {
 
         List<Person> list = Arrays.asList(person, person2, person3);
 
-        for (Person element : list) {
-            if (element.getName().endsWith("a")) {
-                System.out.println(element.getName() + " " + element.getSurname() + " jest Kobietą");
-            } else {
-                System.out.println(element.getName() + " " + element.getSurname() + " jest Mężczyzną");
-            }
-
-        }
+        NewPerson.checkPerson(list);
 
 
     }
