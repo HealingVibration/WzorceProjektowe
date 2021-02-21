@@ -8,7 +8,7 @@ public class NewPerson {
         for (Person element : list) {
             if (element.getName().endsWith("a")) {
                System.out.println(element.getName() + " " + element.getSurname() + " jest Kobietą");
-
+                //String.format
             } else {
                 System.out.println(element.getName() + " " + element.getSurname() + " jest Mężczyzną");
             }
